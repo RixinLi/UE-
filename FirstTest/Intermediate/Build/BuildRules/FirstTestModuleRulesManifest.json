@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"C:\\GITHUB\\UE-\\FirstTest\\Source\\FirstTest\\FirstTest.Build.cs",
+		"C:\\GITHUB\\UE-\\FirstTest\\Source\\FirstTest.Target.cs",
+		"C:\\GITHUB\\UE-\\FirstTest\\Source\\FirstTestEditor.Target.cs"
+	],
+	"EngineVersion": "4.27.2"
+}

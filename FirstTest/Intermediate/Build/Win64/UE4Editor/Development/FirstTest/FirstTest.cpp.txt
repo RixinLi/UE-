@@ -1,0 +1,2 @@
+C:\GITHUB\UE-\FirstTest\Intermediate\Build\Win64\UE4Editor\Development\FirstTest\Definitions.FirstTest.h
+C:\GITHUB\UE-\FirstTest\Source\FirstTest\FirstTest.h

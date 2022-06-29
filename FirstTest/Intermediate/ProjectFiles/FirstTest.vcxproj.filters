@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\FirstTest.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F54F7E6C-DBAB-475D-AF58-AAD8499FC062}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\FirstTest.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\FirstTestEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{B0708D12-B9AC-427C-B5A3-4241AD66EE4C}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\FirstTest">
+      <UniqueIdentifier>{944C443E-6B2B-46B5-B7AD-AD7963E39242}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\FirstTest\FirstTest.Build.cs">
+      <Filter>Source\FirstTest</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\FirstTest\FirstTest.cpp">
+      <Filter>Source\FirstTest</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FirstTest\FirstTest.h">
+      <Filter>Source\FirstTest</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FirstTest\FirstTestGameModeBase.cpp">
+      <Filter>Source\FirstTest</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FirstTest\FirstTestGameModeBase.h">
+      <Filter>Source\FirstTest</Filter>
+    </ClInclude>
+    <Filter Include="Source\FirstTest\Private">
+      <UniqueIdentifier>{F12ED2FA-3AD3-4CFA-93F1-73EA62B92982}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\FirstTest\Private\LOLCharacter.cpp">
+      <Filter>Source\FirstTest\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\FirstTest\Public">
+      <UniqueIdentifier>{2E02BB99-4B24-4E7E-8900-91DF536732F6}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\FirstTest\Public\LOLCharacter.h">
+      <Filter>Source\FirstTest\Public</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

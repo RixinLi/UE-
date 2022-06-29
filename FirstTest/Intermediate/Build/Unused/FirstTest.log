@@ -1,0 +1,10 @@
+﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\GITHUB\UE-).
+  Deleted hot-reload file: C:\GITHUB\UE-\FirstTest\Binaries\Win64\UE4Editor-FirstTest-7123.dll
+  Deleted hot-reload file: C:\GITHUB\UE-\FirstTest\Binaries\Win64\UE4Editor-FirstTest-7123.pdb
+  Deleted hot-reload file: C:\GITHUB\UE-\FirstTest\Intermediate\Build\Win64\UE4Editor\Development\FirstTest\UE4Editor-FirstTest-7123.lib
+  Building FirstTestEditor...
+  Using Visual Studio 2022 14.32.31332 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.31326) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Building 1 action with 20 processes...
+    [1/1] FirstTestEditor.target
+  Total time in Parallel executor: 0.15 seconds
+  Total execution time: 0.63 seconds
