@@ -59,6 +59,7 @@ public: \
 
 
 #define FirstTest_Source_FirstTest_Public_LOLCharacter_h_17_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__ProjectileClass() { return STRUCT_OFFSET(ALOLCharacter, ProjectileClass); } \
 	FORCEINLINE static uint32 __PPO__SpringArmComp() { return STRUCT_OFFSET(ALOLCharacter, SpringArmComp); } \
 	FORCEINLINE static uint32 __PPO__CameraComp() { return STRUCT_OFFSET(ALOLCharacter, CameraComp); }
 

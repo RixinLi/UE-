@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\FirstTest.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{F54F7E6C-DBAB-475D-AF58-AAD8499FC062}</UniqueIdentifier>
+      <UniqueIdentifier>{002E0418-C5F3-44AB-A155-99BF60B8763B}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\FirstTest.Target.cs">
       <Filter>Source</Filter>
@@ -11,10 +11,18 @@
     <None Include="..\..\Source\FirstTestEditor.Target.cs">
       <Filter>Source</Filter>
     </None>
+    <None Include="..\..\.gitignore" />
+    <None Include="..\..\README.md" />
     <Filter Include="Config">
-      <UniqueIdentifier>{B0708D12-B9AC-427C-B5A3-4241AD66EE4C}</UniqueIdentifier>
+      <UniqueIdentifier>{F1C097EA-02FE-437F-96A6-B65F9E7FC625}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorSettings.ini">
       <Filter>Config</Filter>
     </None>
     <None Include="..\..\Config\DefaultEngine.ini">
@@ -23,8 +31,11 @@
     <None Include="..\..\Config\DefaultGame.ini">
       <Filter>Config</Filter>
     </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
     <Filter Include="Source\FirstTest">
-      <UniqueIdentifier>{944C443E-6B2B-46B5-B7AD-AD7963E39242}</UniqueIdentifier>
+      <UniqueIdentifier>{B2851756-D603-4703-9175-386301F3655A}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\FirstTest\FirstTest.Build.cs">
       <Filter>Source\FirstTest</Filter>
@@ -42,15 +53,27 @@
       <Filter>Source\FirstTest</Filter>
     </ClInclude>
     <Filter Include="Source\FirstTest\Private">
-      <UniqueIdentifier>{F12ED2FA-3AD3-4CFA-93F1-73EA62B92982}</UniqueIdentifier>
+      <UniqueIdentifier>{9F9DC0E6-FDA8-45D6-8375-EF99FE72F1B5}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\FirstTest\Private\ExplosiveBarrel.cpp">
+      <Filter>Source\FirstTest\Private</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Source\FirstTest\Private\LOLCharacter.cpp">
       <Filter>Source\FirstTest\Private</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\FirstTest\Private\LOLMagicProjectile.cpp">
+      <Filter>Source\FirstTest\Private</Filter>
+    </ClCompile>
     <Filter Include="Source\FirstTest\Public">
-      <UniqueIdentifier>{2E02BB99-4B24-4E7E-8900-91DF536732F6}</UniqueIdentifier>
+      <UniqueIdentifier>{05BA33BF-0440-4B3E-8F8B-566A149D50FB}</UniqueIdentifier>
     </Filter>
+    <ClInclude Include="..\..\Source\FirstTest\Public\ExplosiveBarrel.h">
+      <Filter>Source\FirstTest\Public</Filter>
+    </ClInclude>
     <ClInclude Include="..\..\Source\FirstTest\Public\LOLCharacter.h">
+      <Filter>Source\FirstTest\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\FirstTest\Public\LOLMagicProjectile.h">
       <Filter>Source\FirstTest\Public</Filter>
     </ClInclude>
   </ItemGroup>

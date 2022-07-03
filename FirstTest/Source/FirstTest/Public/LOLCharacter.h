@@ -16,6 +16,11 @@ class FIRSTTEST_API ALOLCharacter : public ACharacter
 {
 	GENERATED_BODY()
 
+protected:
+
+	UPROPERTY(EditAnywhere)
+	TSubclassOf<AActor> ProjectileClass;
+
 public:
 	// Sets default values for this character's properties
 	ALOLCharacter();
@@ -29,10 +34,14 @@ protected:
 	UPROPERTY(VisibleAnywhere);
 	UCameraComponent* CameraComp;
 
-	void MoveForward(float value) 
-	{
-		AddMovementInput(GetActorForwardVector(), value);
-	}
+	void MoveForward(float value);
+
+	void MoveRight(float value);
+
+	void JumpStart();
+	void JumpEnd();
+
+	void PrimaryAttack();
 
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
