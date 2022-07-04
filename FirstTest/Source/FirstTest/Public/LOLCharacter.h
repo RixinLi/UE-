@@ -10,6 +10,8 @@
 
 class UCameraComponent;
 class USpringArmComponent;
+class USInteractionComponent;
+
 
 UCLASS()
 class FIRSTTEST_API ALOLCharacter : public ACharacter
@@ -27,21 +29,22 @@ public:
 
 protected:
 
-	UPROPERTY(VisibleAnywhere);
-
+	UPROPERTY(VisibleAnywhere)
 	USpringArmComponent *SpringArmComp;
 
-	UPROPERTY(VisibleAnywhere);
-	UCameraComponent* CameraComp;
+	UPROPERTY(VisibleAnywhere)
+		UCameraComponent* CameraComp;
+
+	UPROPERTY(VisibleAnywhere)
+	USInteractionComponent* InteractionComp;
+
 
 	void MoveForward(float value);
-
 	void MoveRight(float value);
-
 	void JumpStart();
 	void JumpEnd();
-
 	void PrimaryAttack();
+	void PrimaryInteract();
 
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;

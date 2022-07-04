@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\FirstTest.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{002E0418-C5F3-44AB-A155-99BF60B8763B}</UniqueIdentifier>
+      <UniqueIdentifier>{3606E929-240A-4356-BBE8-9A1E05B6DF31}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\FirstTest.Target.cs">
       <Filter>Source</Filter>
@@ -14,7 +14,7 @@
     <None Include="..\..\.gitignore" />
     <None Include="..\..\README.md" />
     <Filter Include="Config">
-      <UniqueIdentifier>{F1C097EA-02FE-437F-96A6-B65F9E7FC625}</UniqueIdentifier>
+      <UniqueIdentifier>{36C0CB85-5DB1-44F5-A48B-DA855C6CFE2D}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -35,7 +35,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\FirstTest">
-      <UniqueIdentifier>{B2851756-D603-4703-9175-386301F3655A}</UniqueIdentifier>
+      <UniqueIdentifier>{6DDBDDD5-CC06-43AA-AE86-AAED89DE2593}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\FirstTest\FirstTest.Build.cs">
       <Filter>Source\FirstTest</Filter>
@@ -53,7 +53,7 @@
       <Filter>Source\FirstTest</Filter>
     </ClInclude>
     <Filter Include="Source\FirstTest\Private">
-      <UniqueIdentifier>{9F9DC0E6-FDA8-45D6-8375-EF99FE72F1B5}</UniqueIdentifier>
+      <UniqueIdentifier>{2AA70471-BBC8-497C-B354-14902FCF6A13}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\FirstTest\Private\ExplosiveBarrel.cpp">
       <Filter>Source\FirstTest\Private</Filter>
@@ -64,8 +64,17 @@
     <ClCompile Include="..\..\Source\FirstTest\Private\LOLMagicProjectile.cpp">
       <Filter>Source\FirstTest\Private</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\FirstTest\Private\SGameplayInterface.cpp">
+      <Filter>Source\FirstTest\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\FirstTest\Private\SInteractionComponent.cpp">
+      <Filter>Source\FirstTest\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\FirstTest\Private\SItemChest.cpp">
+      <Filter>Source\FirstTest\Private</Filter>
+    </ClCompile>
     <Filter Include="Source\FirstTest\Public">
-      <UniqueIdentifier>{05BA33BF-0440-4B3E-8F8B-566A149D50FB}</UniqueIdentifier>
+      <UniqueIdentifier>{3D8D5BBA-01E3-4D76-8704-B83DBDAE0669}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\FirstTest\Public\ExplosiveBarrel.h">
       <Filter>Source\FirstTest\Public</Filter>
@@ -74,6 +83,15 @@
       <Filter>Source\FirstTest\Public</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\FirstTest\Public\LOLMagicProjectile.h">
+      <Filter>Source\FirstTest\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\FirstTest\Public\SGameplayInterface.h">
+      <Filter>Source\FirstTest\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\FirstTest\Public\SInteractionComponent.h">
+      <Filter>Source\FirstTest\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\FirstTest\Public\SItemChest.h">
       <Filter>Source\FirstTest\Public</Filter>
     </ClInclude>
   </ItemGroup>

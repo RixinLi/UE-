@@ -1,33 +1,66 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\GITHUB\UE-).
-  Deleted hot-reload file: C:\GITHUB\UE-\FirstTest\Binaries\Win64\UE4Editor-FirstTest-0009.dll
-  Deleted hot-reload file: C:\GITHUB\UE-\FirstTest\Binaries\Win64\UE4Editor-FirstTest-0009.pdb
-  Deleted hot-reload file: C:\GITHUB\UE-\FirstTest\Binaries\Win64\UE4Editor-FirstTest-3039.dll
-  Deleted hot-reload file: C:\GITHUB\UE-\FirstTest\Binaries\Win64\UE4Editor-FirstTest-3039.pdb
-  Deleted hot-reload file: C:\GITHUB\UE-\FirstTest\Binaries\Win64\UE4Editor-FirstTest-3077.dll
-  Deleted hot-reload file: C:\GITHUB\UE-\FirstTest\Binaries\Win64\UE4Editor-FirstTest-3077.pdb
-  Deleted hot-reload file: C:\GITHUB\UE-\FirstTest\Binaries\Win64\UE4Editor-FirstTest-5663.dll
-  Deleted hot-reload file: C:\GITHUB\UE-\FirstTest\Binaries\Win64\UE4Editor-FirstTest-5663.pdb
-  Deleted hot-reload file: C:\GITHUB\UE-\FirstTest\Binaries\Win64\UE4Editor-FirstTest-8778.dll
-  Deleted hot-reload file: C:\GITHUB\UE-\FirstTest\Binaries\Win64\UE4Editor-FirstTest-8778.pdb
-  Deleted hot-reload file: C:\GITHUB\UE-\FirstTest\Binaries\Win64\UE4Editor-FirstTest-8957.dll
-  Deleted hot-reload file: C:\GITHUB\UE-\FirstTest\Binaries\Win64\UE4Editor-FirstTest-8957.pdb
-  Deleted hot-reload file: C:\GITHUB\UE-\FirstTest\Binaries\Win64\UE4Editor-FirstTest-9277.dll
-  Deleted hot-reload file: C:\GITHUB\UE-\FirstTest\Binaries\Win64\UE4Editor-FirstTest-9277.pdb
-  Deleted hot-reload file: C:\GITHUB\UE-\FirstTest\Intermediate\Build\Win64\UE4Editor\Development\FirstTest\UE4Editor-FirstTest-0009.lib
-  Deleted hot-reload file: C:\GITHUB\UE-\FirstTest\Intermediate\Build\Win64\UE4Editor\Development\FirstTest\UE4Editor-FirstTest-3039.lib
-  Deleted hot-reload file: C:\GITHUB\UE-\FirstTest\Intermediate\Build\Win64\UE4Editor\Development\FirstTest\UE4Editor-FirstTest-3077.lib
-  Deleted hot-reload file: C:\GITHUB\UE-\FirstTest\Intermediate\Build\Win64\UE4Editor\Development\FirstTest\UE4Editor-FirstTest-5663.lib
-  Deleted hot-reload file: C:\GITHUB\UE-\FirstTest\Intermediate\Build\Win64\UE4Editor\Development\FirstTest\UE4Editor-FirstTest-8778.lib
-  Deleted hot-reload file: C:\GITHUB\UE-\FirstTest\Intermediate\Build\Win64\UE4Editor\Development\FirstTest\UE4Editor-FirstTest-8957.lib
-  Deleted hot-reload file: C:\GITHUB\UE-\FirstTest\Intermediate\Build\Win64\UE4Editor\Development\FirstTest\UE4Editor-FirstTest-9277.lib
+  Deleted hot-reload file: C:\GITHUB\UE-\FirstTest\Binaries\Win64\UE4Editor-FirstTest-0003.dll
+  Deleted hot-reload file: C:\GITHUB\UE-\FirstTest\Binaries\Win64\UE4Editor-FirstTest-0003.pdb
+  Deleted hot-reload file: C:\GITHUB\UE-\FirstTest\Binaries\Win64\UE4Editor-FirstTest-0005.dll
+  Deleted hot-reload file: C:\GITHUB\UE-\FirstTest\Binaries\Win64\UE4Editor-FirstTest-0005.pdb
+  Deleted hot-reload file: C:\GITHUB\UE-\FirstTest\Binaries\Win64\UE4Editor-FirstTest-0006.dll
+  Deleted hot-reload file: C:\GITHUB\UE-\FirstTest\Binaries\Win64\UE4Editor-FirstTest-0006.pdb
+  Deleted hot-reload file: C:\GITHUB\UE-\FirstTest\Binaries\Win64\UE4Editor-FirstTest-0010.dll
+  Deleted hot-reload file: C:\GITHUB\UE-\FirstTest\Binaries\Win64\UE4Editor-FirstTest-0010.pdb
+  Deleted hot-reload file: C:\GITHUB\UE-\FirstTest\Binaries\Win64\UE4Editor-FirstTest-0011.dll
+  Deleted hot-reload file: C:\GITHUB\UE-\FirstTest\Binaries\Win64\UE4Editor-FirstTest-0011.pdb
+  Deleted hot-reload file: C:\GITHUB\UE-\FirstTest\Binaries\Win64\UE4Editor-FirstTest-0012.dll
+  Deleted hot-reload file: C:\GITHUB\UE-\FirstTest\Binaries\Win64\UE4Editor-FirstTest-0012.pdb
+  Deleted hot-reload file: C:\GITHUB\UE-\FirstTest\Binaries\Win64\UE4Editor-FirstTest-0013.dll
+  Deleted hot-reload file: C:\GITHUB\UE-\FirstTest\Binaries\Win64\UE4Editor-FirstTest-0013.pdb
+  Deleted hot-reload file: C:\GITHUB\UE-\FirstTest\Binaries\Win64\UE4Editor-FirstTest-0014.dll
+  Deleted hot-reload file: C:\GITHUB\UE-\FirstTest\Binaries\Win64\UE4Editor-FirstTest-0014.pdb
+  Deleted hot-reload file: C:\GITHUB\UE-\FirstTest\Binaries\Win64\UE4Editor-FirstTest-0015.dll
+  Deleted hot-reload file: C:\GITHUB\UE-\FirstTest\Binaries\Win64\UE4Editor-FirstTest-0015.pdb
+  Deleted hot-reload file: C:\GITHUB\UE-\FirstTest\Binaries\Win64\UE4Editor-FirstTest-0016.dll
+  Deleted hot-reload file: C:\GITHUB\UE-\FirstTest\Binaries\Win64\UE4Editor-FirstTest-0016.pdb
+  Deleted hot-reload file: C:\GITHUB\UE-\FirstTest\Binaries\Win64\UE4Editor-FirstTest-1737.dll
+  Deleted hot-reload file: C:\GITHUB\UE-\FirstTest\Binaries\Win64\UE4Editor-FirstTest-1737.pdb
+  Deleted hot-reload file: C:\GITHUB\UE-\FirstTest\Binaries\Win64\UE4Editor-FirstTest-2704.dll
+  Deleted hot-reload file: C:\GITHUB\UE-\FirstTest\Binaries\Win64\UE4Editor-FirstTest-2704.pdb
+  Deleted hot-reload file: C:\GITHUB\UE-\FirstTest\Binaries\Win64\UE4Editor-FirstTest-2916.dll
+  Deleted hot-reload file: C:\GITHUB\UE-\FirstTest\Binaries\Win64\UE4Editor-FirstTest-2916.pdb
+  Deleted hot-reload file: C:\GITHUB\UE-\FirstTest\Binaries\Win64\UE4Editor-FirstTest-3161.dll
+  Deleted hot-reload file: C:\GITHUB\UE-\FirstTest\Binaries\Win64\UE4Editor-FirstTest-3161.pdb
+  Deleted hot-reload file: C:\GITHUB\UE-\FirstTest\Binaries\Win64\UE4Editor-FirstTest-4162.dll
+  Deleted hot-reload file: C:\GITHUB\UE-\FirstTest\Binaries\Win64\UE4Editor-FirstTest-4162.pdb
+  Deleted hot-reload file: C:\GITHUB\UE-\FirstTest\Binaries\Win64\UE4Editor-FirstTest-6412.dll
+  Deleted hot-reload file: C:\GITHUB\UE-\FirstTest\Binaries\Win64\UE4Editor-FirstTest-6412.pdb
+  Deleted hot-reload file: C:\GITHUB\UE-\FirstTest\Binaries\Win64\UE4Editor-FirstTest-6895.dll
+  Deleted hot-reload file: C:\GITHUB\UE-\FirstTest\Binaries\Win64\UE4Editor-FirstTest-6895.pdb
+  Deleted hot-reload file: C:\GITHUB\UE-\FirstTest\Binaries\Win64\UE4Editor-FirstTest-7017.dll
+  Deleted hot-reload file: C:\GITHUB\UE-\FirstTest\Binaries\Win64\UE4Editor-FirstTest-7017.pdb
+  Deleted hot-reload file: C:\GITHUB\UE-\FirstTest\Intermediate\Build\Win64\UE4Editor\Development\FirstTest\UE4Editor-FirstTest-0003.lib
+  Deleted hot-reload file: C:\GITHUB\UE-\FirstTest\Intermediate\Build\Win64\UE4Editor\Development\FirstTest\UE4Editor-FirstTest-0005.lib
+  Deleted hot-reload file: C:\GITHUB\UE-\FirstTest\Intermediate\Build\Win64\UE4Editor\Development\FirstTest\UE4Editor-FirstTest-0006.lib
+  Deleted hot-reload file: C:\GITHUB\UE-\FirstTest\Intermediate\Build\Win64\UE4Editor\Development\FirstTest\UE4Editor-FirstTest-0010.lib
+  Deleted hot-reload file: C:\GITHUB\UE-\FirstTest\Intermediate\Build\Win64\UE4Editor\Development\FirstTest\UE4Editor-FirstTest-0011.lib
+  Deleted hot-reload file: C:\GITHUB\UE-\FirstTest\Intermediate\Build\Win64\UE4Editor\Development\FirstTest\UE4Editor-FirstTest-0012.lib
+  Deleted hot-reload file: C:\GITHUB\UE-\FirstTest\Intermediate\Build\Win64\UE4Editor\Development\FirstTest\UE4Editor-FirstTest-0013.lib
+  Deleted hot-reload file: C:\GITHUB\UE-\FirstTest\Intermediate\Build\Win64\UE4Editor\Development\FirstTest\UE4Editor-FirstTest-0014.lib
+  Deleted hot-reload file: C:\GITHUB\UE-\FirstTest\Intermediate\Build\Win64\UE4Editor\Development\FirstTest\UE4Editor-FirstTest-0015.lib
+  Deleted hot-reload file: C:\GITHUB\UE-\FirstTest\Intermediate\Build\Win64\UE4Editor\Development\FirstTest\UE4Editor-FirstTest-0016.lib
+  Deleted hot-reload file: C:\GITHUB\UE-\FirstTest\Intermediate\Build\Win64\UE4Editor\Development\FirstTest\UE4Editor-FirstTest-1737.lib
+  Deleted hot-reload file: C:\GITHUB\UE-\FirstTest\Intermediate\Build\Win64\UE4Editor\Development\FirstTest\UE4Editor-FirstTest-2704.lib
+  Deleted hot-reload file: C:\GITHUB\UE-\FirstTest\Intermediate\Build\Win64\UE4Editor\Development\FirstTest\UE4Editor-FirstTest-2916.lib
+  Deleted hot-reload file: C:\GITHUB\UE-\FirstTest\Intermediate\Build\Win64\UE4Editor\Development\FirstTest\UE4Editor-FirstTest-3161.lib
+  Deleted hot-reload file: C:\GITHUB\UE-\FirstTest\Intermediate\Build\Win64\UE4Editor\Development\FirstTest\UE4Editor-FirstTest-4162.lib
+  Deleted hot-reload file: C:\GITHUB\UE-\FirstTest\Intermediate\Build\Win64\UE4Editor\Development\FirstTest\UE4Editor-FirstTest-6412.lib
+  Deleted hot-reload file: C:\GITHUB\UE-\FirstTest\Intermediate\Build\Win64\UE4Editor\Development\FirstTest\UE4Editor-FirstTest-6895.lib
+  Deleted hot-reload file: C:\GITHUB\UE-\FirstTest\Intermediate\Build\Win64\UE4Editor\Development\FirstTest\UE4Editor-FirstTest-7017.lib
   Building FirstTestEditor...
   Using Visual Studio 2022 14.32.31332 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.31326) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
   Building 4 actions with 20 processes...
-    [1/4] LOLCharacter.cpp
+    [1/4] SInteractionComponent.cpp
     [2/4] UE4Editor-FirstTest.lib
       ????? C:\GITHUB\UE-\FirstTest\Intermediate\Build\Win64\UE4Editor\Development\FirstTest\UE4Editor-FirstTest.lib ??? C:\GITHUB\UE-\FirstTest\Intermediate\Build\Win64\UE4Editor\Development\FirstTest\UE4Editor-FirstTest.exp
     [3/4] UE4Editor-FirstTest.dll
       ????? C:\GITHUB\UE-\FirstTest\Intermediate\Build\Win64\UE4Editor\Development\FirstTest\UE4Editor-FirstTest.suppressed.lib ??? C:\GITHUB\UE-\FirstTest\Intermediate\Build\Win64\UE4Editor\Development\FirstTest\UE4Editor-FirstTest.suppressed.exp
     [4/4] FirstTestEditor.target
-  Total time in Parallel executor: 1.24 seconds
-  Total execution time: 1.68 seconds
+  Total time in Parallel executor: 0.99 seconds
+  Total execution time: 1.46 seconds

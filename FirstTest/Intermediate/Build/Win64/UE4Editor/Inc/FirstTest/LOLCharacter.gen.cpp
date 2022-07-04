@@ -21,6 +21,7 @@ void EmptyLinkFunctionForGeneratedCodeLOLCharacter() {}
 	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USpringArmComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UCameraComponent_NoRegister();
+	FIRSTTEST_API UClass* Z_Construct_UClass_USInteractionComponent_NoRegister();
 // End Cross Module References
 	void ALOLCharacter::StaticRegisterNativesALOLCharacter()
 	{
@@ -47,6 +48,10 @@ void EmptyLinkFunctionForGeneratedCodeLOLCharacter() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_CameraComp_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_CameraComp;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_InteractionComp_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_InteractionComp;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -85,10 +90,19 @@ void EmptyLinkFunctionForGeneratedCodeLOLCharacter() {}
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ALOLCharacter_Statics::NewProp_CameraComp = { "CameraComp", nullptr, (EPropertyFlags)0x00200800000a0009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ALOLCharacter, CameraComp), Z_Construct_UClass_UCameraComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ALOLCharacter_Statics::NewProp_CameraComp_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ALOLCharacter_Statics::NewProp_CameraComp_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ALOLCharacter_Statics::NewProp_InteractionComp_MetaData[] = {
+		{ "Category", "LOLCharacter" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "Public/LOLCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ALOLCharacter_Statics::NewProp_InteractionComp = { "InteractionComp", nullptr, (EPropertyFlags)0x00200800000a0009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ALOLCharacter, InteractionComp), Z_Construct_UClass_USInteractionComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ALOLCharacter_Statics::NewProp_InteractionComp_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ALOLCharacter_Statics::NewProp_InteractionComp_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ALOLCharacter_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ALOLCharacter_Statics::NewProp_ProjectileClass,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ALOLCharacter_Statics::NewProp_SpringArmComp,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ALOLCharacter_Statics::NewProp_CameraComp,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ALOLCharacter_Statics::NewProp_InteractionComp,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ALOLCharacter_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<ALOLCharacter>::IsAbstract,
@@ -117,7 +131,7 @@ void EmptyLinkFunctionForGeneratedCodeLOLCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ALOLCharacter, 961166223);
+	IMPLEMENT_CLASS(ALOLCharacter, 2486051076);
 	template<> FIRSTTEST_API UClass* StaticClass<ALOLCharacter>()
 	{
 		return ALOLCharacter::StaticClass();

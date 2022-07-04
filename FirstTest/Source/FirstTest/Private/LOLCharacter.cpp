@@ -5,6 +5,7 @@
 #include "GameFramework/SpringArmComponent.h"
 #include "Camera/CameraComponent.h"
 #include "GameFramework/CharacterMovementComponent.h"
+#include "SInteractionComponent.h"
 
 
 // Sets default values
@@ -20,9 +21,12 @@ ALOLCharacter::ALOLCharacter()
 	CameraComp = CreateDefaultSubobject<UCameraComponent>("CameraComp");
 	CameraComp->SetupAttachment(SpringArmComp);
 
+	InteractionComp = CreateDefaultSubobject<USInteractionComponent>("InteractionComp");
+
 	GetCharacterMovement()->bOrientRotationToMovement = true;
 
 	bUseControllerRotationYaw = false;
+
 
 }
 
@@ -64,6 +68,8 @@ void ALOLCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompon
 	// 普通公鸡
 	PlayerInputComponent->BindAction("PrimaryAttack", IE_Pressed, this, &ALOLCharacter::PrimaryAttack);
 
+	// 打开宝箱交互
+	PlayerInputComponent->BindAction("PrimaryInteract", IE_Pressed, this, &ALOLCharacter::PrimaryInteract);
 
 }
 
@@ -115,4 +121,9 @@ void ALOLCharacter::PrimaryAttack() {
 
 	GetWorld()->SpawnActor<AActor>(ProjectileClass, SpawnTM, SpawnParams);
 
+}
+
+void ALOLCharacter::PrimaryInteract()
+{
+	if (InteractionComp) InteractionComp->PrimaryInteract();
 }
