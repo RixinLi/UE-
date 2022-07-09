@@ -11,6 +11,8 @@
 class UCameraComponent;
 class USpringArmComponent;
 class USInteractionComponent;
+class UAnimMontage;
+class FTimeHandle;
 
 
 UCLASS()
@@ -20,8 +22,15 @@ class FIRSTTEST_API ALOLCharacter : public ACharacter
 
 protected:
 
-	UPROPERTY(EditAnywhere)
+	UPROPERTY(EditAnywhere, Category = "Attack")
 	TSubclassOf<AActor> ProjectileClass;
+
+	UPROPERTY(EditAnywhere, Category = "Attack")
+	UAnimMontage* AttackAnim;
+
+	FTimerHandle TimerHandle_PrimaryAttack;
+
+	
 
 public:
 	// Sets default values for this character's properties
@@ -44,6 +53,7 @@ protected:
 	void JumpStart();
 	void JumpEnd();
 	void PrimaryAttack();
+	void PrimaryAttack_TimeElapsed();
 	void PrimaryInteract();
 
 	// Called when the game starts or when spawned

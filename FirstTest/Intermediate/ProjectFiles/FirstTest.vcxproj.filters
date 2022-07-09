@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\FirstTest.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{2A9D2ABE-93E6-495E-8B24-66D38EA5A555}</UniqueIdentifier>
+      <UniqueIdentifier>{203A3ED0-8E12-483B-B29A-3DFF3567FE98}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\FirstTest.Target.cs">
       <Filter>Source</Filter>
@@ -14,7 +14,7 @@
     <None Include="..\..\.gitignore" />
     <None Include="..\..\README.md" />
     <Filter Include="Config">
-      <UniqueIdentifier>{48DBA92D-ECC0-4320-8D36-23F550F974B9}</UniqueIdentifier>
+      <UniqueIdentifier>{4F158BE6-598C-4984-AE03-FEB9AE58CD89}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -35,7 +35,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\FirstTest">
-      <UniqueIdentifier>{E4BA19AB-5B87-4CC8-862E-1F86F6D76758}</UniqueIdentifier>
+      <UniqueIdentifier>{1D91AB47-81C4-4588-8AD3-7543466193B4}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\FirstTest\FirstTest.Build.cs">
       <Filter>Source\FirstTest</Filter>
@@ -53,7 +53,7 @@
       <Filter>Source\FirstTest</Filter>
     </ClInclude>
     <Filter Include="Source\FirstTest\Private">
-      <UniqueIdentifier>{847446F2-F87D-41C9-9178-D635687B1AF5}</UniqueIdentifier>
+      <UniqueIdentifier>{6421CBD8-6256-469C-91A6-132670265134}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\FirstTest\Private\ExplosiveBarrel.cpp">
       <Filter>Source\FirstTest\Private</Filter>
@@ -74,7 +74,7 @@
       <Filter>Source\FirstTest\Private</Filter>
     </ClCompile>
     <Filter Include="Source\FirstTest\Public">
-      <UniqueIdentifier>{C67426A7-9B07-4CF1-AB57-29783325712F}</UniqueIdentifier>
+      <UniqueIdentifier>{6CF0117F-E907-4B1A-B062-19EF4346ADF0}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\FirstTest\Public\ExplosiveBarrel.h">
       <Filter>Source\FirstTest\Public</Filter>

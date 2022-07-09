@@ -1,4 +1,37 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\GITHUB\UE-).
-  Creating makefile for FirstTestEditor (no existing makefile)
-  Target is up to date
-  Total execution time: 1.19 seconds
+  Parsing headers for FirstTestEditor
+    Running UnrealHeaderTool "C:\GITHUB\UE-\FirstTest\FirstTest.uproject" "C:\GITHUB\UE-\FirstTest\Intermediate\Build\Win64\FirstTestEditor\Development\FirstTestEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\26412\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+  LogInit: Display: Loading text-based GConfig....
+  Reflection code generated for FirstTestEditor in 2.2604698 seconds
+  Deleted hot-reload file: C:\GITHUB\UE-\FirstTest\Binaries\Win64\UE4Editor-FirstTest-0974.dll
+  Deleted hot-reload file: C:\GITHUB\UE-\FirstTest\Binaries\Win64\UE4Editor-FirstTest-0974.pdb
+  Deleted hot-reload file: C:\GITHUB\UE-\FirstTest\Intermediate\Build\Win64\UE4Editor\Development\FirstTest\UE4Editor-FirstTest-0974.lib
+  Building FirstTestEditor...
+  Using Visual Studio 2022 14.32.31332 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.31326) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Distributing 5 actions to XGE
+  --------------------Build System Warning---------------------------------------
+  License is invalid:
+      License information is invalid. Please try reloading your license file using the Coordinator Monitor application on the Coordinator machine, or reinstall IncrediBuild.
+      This build will run in standalone mode.
+  
+  -------------------------------------------------------------------------------
+  
+  Build ID: {F52E4899-BA5F-4B80-B65E-DD7F99ED4DCD}
+  
+  --------------------Project: Default-------------------------------------------
+  LOLCharacter.gen.cpp (0:00.54 at +0:00)
+  LOLCharacter.cpp (0:00.71 at +0:00)
+  UE4Editor-FirstTest.dll (0:00.46 at +0:01)
+    ????? C:\GITHUB\UE-\FirstTest\Intermediate\Build\Win64\UE4Editor\Development\FirstTest\UE4Editor-FirstTest.suppressed.lib ??? C:\GITHUB\UE-\FirstTest\Intermediate\Build\Win64\UE4Editor\Development\FirstTest\UE4Editor-FirstTest.suppressed.exp
+  UE4Editor-FirstTest.lib (0:00.04 at +0:01)
+    ????? C:\GITHUB\UE-\FirstTest\Intermediate\Build\Win64\UE4Editor\Development\FirstTest\UE4Editor-FirstTest.lib ??? C:\GITHUB\UE-\FirstTest\Intermediate\Build\Win64\UE4Editor\Development\FirstTest\UE4Editor-FirstTest.exp
+  FirstTestEditor.target (0:00.14 at +0:01)
+  ---------------------- Done ----------------------
+  
+      Rebuild All: 1 succeeded, 0 failed, 0 skipped
+  
+  1 build system warning(s):
+     - License is invalid
+  
+  Total time in XGE executor: 2.06 seconds
+  Total execution time: 4.70 seconds
